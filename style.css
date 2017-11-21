@@ -1,0 +1,210 @@
+
+body {
+    font-family: "Lato", sans-serif;  
+    
+    
+}
+
+h1{
+   
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 200%
+    
+}
+
+h2{
+    
+    font-family: "Lato", sans-serif;
+    display: flex;
+    margin-left: 2%;
+    
+    
+    
+}
+h3{
+    
+    font-family: "Lato", sans-serif;
+    display:flex;
+    margin-left: 2%; 
+    font-size: 12px;
+        
+}
+p{
+    color: #f6fcf2;
+}
+
+
+body, html {
+    height: 100vh;
+    width : 100%;
+    color: #777;
+    line-height: 1.8;
+    margin: 0;
+}
+option,input, button, select{
+     text-align: center;
+     font-family: "Lato", sans-serif; 
+     font-size: 100%; 
+     color: #777;   
+}
+
+.toplink{  
+  height:100% ;  
+  color: #777;
+}
+
+a{
+   color: cyan; 
+   opacity: 1;
+}
+
+a:hover { 
+    color: black; 
+}
+
+
+
+.container{
+    
+    width:100%;
+    height:80%;
+    text-align: center;   
+    padding-right: 0px;    
+    background-size: cover;
+    background-image: url(images/arbre.jpg);
+    color: #f6fcf2;
+}
+
+
+
+#icon{
+    display: inline-block;
+    height: 20%;
+      
+}
+
+
+#title{    
+    display: inline-block;
+    color: #777;
+}
+
+#treepage {
+    display: inline-block;
+    margin-left: 25%;    
+}
+
+#treepage a{
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+#myCarousel{
+    width: 100%;
+    height: 100%;
+}
+
+
+ /*CSS du tree */
+.node {
+    cursor: pointer;
+  }
+
+  .overlay{
+      background-color:#EEE;
+  }
+   
+  .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+   
+  .node text {
+    font-size:10px; 
+    font-family:sans-serif;
+  }
+   
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
+  .templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+  }
+
+  .ghostCircle.show{
+      display:block;
+  }
+
+  .ghostCircle, .activeDrag .ghostCircle{
+       display: none;
+  }
+
+
+
+  #tree-equal{
+      border: 1px solid black;
+      display: inline-block;
+      margin-left: 20px;      
+      color: black;
+      
+      
+  }
+  #tree-child{
+      border: 1px solid black;
+      display: inline-block;    
+      color: black;
+      
+  }
+  #tree-father{
+      border: 1px solid black;
+      display: inline-block;
+      margin-left: 20px;     
+      color: black;
+      
+  }
+  #tree-dif{
+      border: 1px solid black;
+      display: inline-block;
+      margin-left: 20px;
+      color: black;
+      
+  }
+
+
+
+.tree{
+    
+    text-align: center;    
+    background-color: white;  
+    display: inline-block;  
+}
+
+#radios input[type=radio]{
+    display: none;
+}
+
+#radios input[type=radio]:checked + .tree{
+    background-color: green;
+}
+
+.test{
+       display : inline-block;
+       margin-right: 10em;
+
+}
+
+
+
+
+
+
+
